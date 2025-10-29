@@ -1,0 +1,107 @@
+---
+import { Image } from "astro:assets";
+---
+
+<footer class="bg-background-light dark:bg-background-dark py-16">
+  <div class="container mx-auto px-6">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+      <div class="md:col-span-2 lg:col-span-1">
+        <a
+          class="flex items-center gap-2 text-xl font-bold font-display text-slate-800 dark:text-white mb-4"
+          href="#"
+        >
+          <svg
+            class="w-8 h-8 text-primary"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 7L10.94 12.33C11.59 12.83 12.41 12.83 13.06 12.33L20 7M5 18H19C20.1 18 21 17.1 21 16V8C21 6.9 20.1 6 19 6H5C3.9 6 3 6.9 3 8V16C3 17.1 3.9 18 5 18Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"></path>
+            <path
+              d="M15.5 10.5L19.5 7.5"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"></path>
+            <path
+              d="M8.5 10.5L4.5 7.5"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"></path>
+          </svg>
+          <span>Email Verifier</span>
+        </a>
+        <p class="text-slate-500 dark:text-slate-400 mb-4">
+          Professional email verification trusted by thousands worldwide.
+        </p>
+        <a class="text-slate-400 hover:text-primary transition-colors" href="#"
+          ><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+            ></path>
+          </svg></a
+        >
+      </div>
+      <div>
+        <h4 class="font-bold text-slate-800 dark:text-white mb-4">Explore</h4>
+        <ul class="space-y-3 text-slate-500 dark:text-slate-400">
+          <li>
+            <a
+              class="hover:text-primary dark:hover:text-white transition-colors"
+              href="#">Features</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-primary dark:hover:text-white transition-colors"
+              href="#">Pricing</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-slate-800 dark:text-white mb-4">Legal</h4>
+        <ul class="space-y-3 text-slate-500 dark:text-slate-400">
+          <li>
+            <a
+              class="hover:text-primary dark:hover:text-white transition-colors"
+              href="#">Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:text-primary dark:hover:text-white transition-colors"
+              href="#">Terms of Service</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-slate-800 dark:text-white mb-4">Contact</h4>
+        <ul class="space-y-3 text-slate-500 dark:text-slate-400">
+          <li class="flex items-start gap-2">
+            <span class="material-symbols-outlined text-base text-slate-400 pt-0.5"
+              >email</span
+            >support@emailverifier.io
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="material-symbols-outlined text-base text-slate-400 pt-0.5"
+              >location_on</span
+            >1111B S Governors Ave STE 25016 Dover, DE, 19904 US
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-sm text-slate-500 dark:text-slate-400"
+    >
+      ©2025 EmailVerifier.io, All rights reserved
+    </div>
+  </div>
+</footer>

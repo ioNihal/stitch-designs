@@ -1,0 +1,124 @@
+---
+import { Image } from "astro:assets";
+import sarahJohnson from "../assets/sarah-johnson.png";
+import michaelChen from "../assets/michael-chen.png";
+import emilyRodriguez from "../assets/emily-rodriguez.png";
+---
+
+<div
+  class="py-20 lg:py-28 bg-white dark:bg-slate-900 border-y border-slate-200 dark:border-slate-800"
+>
+  <div class="container mx-auto px-6">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2
+        class="text-4xl lg:text-5xl font-bold font-display text-slate-900 dark:text-white mb-4 tracking-tighter"
+      >
+        Loved by Thousands of Businesses
+      </h2>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        See what our customers have to say about their experience with Email
+        Verifier.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-xl border border-slate-200 dark:border-slate-800"
+      >
+        <span class="text-5xl text-primary/30 dark:text-primary/50">"</span>
+        <blockquote class="text-slate-700 dark:text-slate-300 my-2">
+          "EmailVerifier.io helped us cut our bounce rate from 15% to under 2%.
+          Total game changer."
+        </blockquote>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-3">
+            <Image
+              alt="Portrait of Sarah Johnson"
+              class="w-10 h-10 rounded-full object-cover"
+              src={sarahJohnson}
+            />
+            <div>
+              <p class="font-semibold text-sm text-slate-800 dark:text-white">
+                Sarah Johnson
+              </p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">
+                Marketing Director, SaaS Yogi
+              </p>
+            </div>
+          </div>
+          <div class="flex text-yellow-400">
+            <span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-xl border border-slate-200 dark:border-slate-800"
+      >
+        <span class="text-5xl text-primary/30 dark:text-primary/50">"</span>
+        <blockquote class="text-slate-700 dark:text-slate-300 my-2">
+          "The API was super easy to set up, and the accuracy blew us away."
+        </blockquote>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-3">
+            <Image
+              alt="Portrait of Michael Chen"
+              class="w-10 h-10 rounded-full object-cover"
+              src={michaelChen}
+            />
+            <div>
+              <p class="font-semibold text-sm text-slate-800 dark:text-white">
+                Michael Chen
+              </p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">
+                Founder, Paperbot AI
+              </p>
+            </div>
+          </div>
+          <div class="flex text-yellow-400">
+            <span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-slate-50 dark:bg-slate-800/50 p-8 rounded-xl border border-slate-200 dark:border-slate-800"
+      >
+        <span class="text-5xl text-primary/30 dark:text-primary/50">"</span>
+        <blockquote class="text-slate-700 dark:text-slate-300 my-2">
+          "We clean thousands of emails daily. It's fast, reliable, and just
+          works."
+        </blockquote>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-3">
+            <Image
+              alt="Portrait of Emily Rodriguez"
+              class="w-10 h-10 rounded-full object-cover"
+              src={emilyRodriguez}
+            />
+            <div>
+              <p class="font-semibold text-sm text-slate-800 dark:text-white">
+                Emily Rodriguez
+              </p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">
+                Email Marketing Manager, Redserp
+              </p>
+            </div>
+          </div>
+          <div class="flex text-yellow-400">
+            <span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span
+            ><span class="material-symbols-outlined text-base">star</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

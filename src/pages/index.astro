@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import LeadingBrands from "../components/LeadingBrands.astro";
+import HowItWorks from "../components/HowItWorks.astro";
+import Features from "../components/Features.astro";
+import Integrations from "../components/Integrations.astro";
+import Testimonials from "../components/Testimonials.astro";
+import CallToAction from "../components/CallToAction.astro";
+import Footer from "../components/Footer.astro";
+import CountdownBanner from "../components/CountdownBanner.tsx";
+import PricingCalculator from "../components/PricingCalculator.tsx";
+import "../styles/global.css";
+---
+
+<Layout title="Email Verifier - #1 Email Verification Tool">
+  <CountdownBanner client:load targetDate="2025-11-10T00:00:00" />
+  <Header />
+  <main class="relative">
+    <div
+      class="absolute inset-0 bg-grid-slate-200/[0.05] dark:bg-grid-slate-700/[0.05] [mask-image:linear-gradient(to_bottom,white,transparent)]"
+    >
+    </div>
+    <Hero />
+    <LeadingBrands />
+    <HowItWorks />
+    <Features />
+    <PricingCalculator client:load />
+    <Integrations />
+    <Testimonials />
+    <CallToAction />
+  </main>
+  <Footer />
+</Layout>
