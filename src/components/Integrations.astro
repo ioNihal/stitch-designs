@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import microsoftLogo from "../assets/microsoft-logo.png";
+import slackLogo from "../assets/slack-logo.png";
+import deepmindLogo from "../assets/deepmind-logo.png";
+import zohoLogo from "../assets/zoho-logo.png";
+import googleLogo from "../assets/google-logo.png";
+---
+
+<div class="py-16 lg:py-24">
+  <div class="container mx-auto px-6">
+    <h2 class="text-center text-2xl font-bold text-slate-900 dark:text-white mb-10">
+      Integrate with Trusted Platforms
+    </h2>
+    <div
+      class="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 opacity-60"
+    >
+      <Image
+        alt="Microsoft logo"
+        class="h-6 filter grayscale dark:invert"
+        src={microsoftLogo}
+      />
+      <Image
+        alt="Slack logo"
+        class="h-7 filter grayscale dark:invert"
+        src={slackLogo}
+      />
+      <Image
+        alt="DeepMind logo"
+        class="h-6 filter grayscale dark:invert"
+        src={deepmindLogo}
+      />
+      <Image
+        alt="Zoho logo"
+        class="h-6 filter grayscale dark:invert"
+        src={zohoLogo}
+      />
+      <Image
+        alt="Google logo"
+        class="h-7 filter grayscale dark:invert"
+        src={googleLogo}
+      />
+    </div>
+  </div>
+</div>
